@@ -16,12 +16,12 @@ npm start 或 node bin/www
 
 #### **目前可访问的接口:**
 
-| api           |     描述     |
-| :------------ | :----------: |
-| /AddConfig    |   新增配置   |
-| /UpdateConfig |   修改配置   |
-| /DelateConfig |   删除配置   |
-| /configList   | 获取配置列表 |
+| api           | 请求方式 |     描述     |
+| :------------ | :------: | :----------: |
+| /AddConfig    |   get    |   新增配置   |
+| /UpdateConfig |   post   |   修改配置   |
+| /DelateConfig |   post   |   删除配置   |
+| /configList   |   post   | 获取配置列表 |
 
 ---
 

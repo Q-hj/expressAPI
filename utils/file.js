@@ -6,15 +6,15 @@ const fs = require("fs");
 const Path = require("path");
 function Filter(path) {
   // 在require一个模块的时候（除了系统模块）， 都是从文件自己的相对路径去找。 当使用fs等模块时， 是根据cmd光标盘符去找。
-  let content = fs.readFileSync(path); //同步方式读取内容
+  let content = fs.readFileSync(path) || "[]"; //同步方式读取内容
   //toString:读取的数据格式为buffer类型, 将buffer对象转为字符串类型
   //JSON.parse:将字符串还原为js数据类型(Object|Array)
   this.content = JSON.parse(content.toString());
 
-  // 封装写入的api
-  this.write = function (content, success, error) {
+  // 封装写入 api
+  this.write = function (success, error) {
     //转为字符串并格式化内容
-    let _content = JSON.stringify(content, null, "\t");
+    let _content = JSON.stringify(this.content, null, "\t");
     // 文件路径,内容,回调
     fs.writeFile(path, _content, function (err) {
       if (err) error();
@@ -31,7 +31,7 @@ function Filter(path) {
     let maxId = ids.length ? Math.max(...ids) : 0;
     obj.id = ++maxId; //id递增
     this.content.push(obj);
-    this.write(content, success, error);
+    this.write(success, error);
   };
 
   // 更新实例--查找实例并替换 写入
@@ -41,9 +41,9 @@ function Filter(path) {
     let current = this.content.filter((e) => e.id == _id);
     if (!current.length) return error("id不存在!");
 
-    const index = this.content.map((e) => e.id).indexOf(_id);
+    const index = this.content.map((e) => parseInt(e.id)).indexOf(_id);
     this.content.splice(index, 1, obj);
-    this.write(content, success, error);
+    this.write(success, error);
   };
 
   // 删除实例--查找实例并移除 写入
@@ -53,9 +53,10 @@ function Filter(path) {
     let current = this.content.filter((e) => e.id == _id);
     if (!current.length) return error("id不存在!");
 
-    const index = this.content.map((e) => e.id).indexOf(_id);
+    const index = this.content.map((e) => parseInt(e.id)).indexOf(_id);
+    if (index < 0) console.log(index);
     this.content.splice(index, 1);
-    this.write(content, success, error);
+    this.write(success, error);
   };
 }
 module.exports = Filter;
