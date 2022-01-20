@@ -5,20 +5,43 @@
 		"town": "许昌",
 		"isSign": "是",
 		"StationNo": "12313",
-		"Title": "许昌123",
+		"Title": "许昌监测站",
 		"Lon": "112",
 		"Lat": "34",
-		"id": "3"
+		"id": 4,
+		"areacode": "2132"
 	},
 	{
-		"Areacode": "31",
+		"areacode": "31231",
 		"Type": "国家站",
 		"town": "许昌",
 		"isSign": "是",
 		"StationNo": "12313",
-		"Title": "许昌监测站",
-		"Lon": "112",
-		"Lat": "34",
-		"id": 4
+		"Title": "许昌监测站231",
+		"Lon": 112,
+		"Lat": 34,
+		"id": 5
+	},
+	{
+		"areacode": "31",
+		"Type": "国家站",
+		"town": "许昌",
+		"isSign": "是",
+		"StationNo": "12313",
+		"Title": "许昌监测站213",
+		"Lon": 112,
+		"Lat": 34,
+		"id": 6
+	},
+	{
+		"areacode": "31",
+		"Type": "国家站",
+		"town": "许昌",
+		"isSign": "是",
+		"StationNo": "12313",
+		"Title": "许昌监测2站",
+		"Lon": 112,
+		"Lat": 34,
+		"id": 7
 	}
 ]

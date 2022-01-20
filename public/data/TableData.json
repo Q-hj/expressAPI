@@ -1,0 +1,31 @@
+{
+  "sebiao": "",
+  "begtimes": "20220118080000",
+  "endtimes": "20220119080000",
+  "imagetitle": "2022年01月18日16时至2022年01月19日16时",
+  "datavalue": true,
+  "jsqd": true,
+  "datas": [
+    { "Lng": 114.2, "Lat": 34.19, "Data": 0, "Data2": 44, "Stationno": "O2355", "Stationname": "彭店", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.4, "Minwddata": -1.8, "Fsdata": 3.9 },
+    { "Lng": 114.24, "Lat": 33.92, "Data": 0, "Data2": 24, "Stationno": "O2356", "Stationname": "屯沟", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.3, "Minwddata": -3.6, "Fsdata": 5.3 },
+    { "Lng": 113.96, "Lat": 34.05, "Data": 0, "Data2": 23, "Stationno": "O2347", "Stationname": "茶庵李", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.3, "Minwddata": -3.3, "Fsdata": 4.6 },
+    { "Lng": 113.65, "Lat": 34.14, "Data": 0, "Data2": 17, "Stationno": "O6007", "Stationname": "艾庄", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 7.7, "Minwddata": -3, "Fsdata": 5 },
+    { "Lng": 114.18, "Lat": 34.11, "Data": 0, "Data2": 347, "Stationno": "O6078", "Stationname": "安陵", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.1, "Minwddata": -2, "Fsdata": 2.9 },
+    { "Lng": 113.79, "Lat": 34.14, "Data": 0, "Data2": 70, "Stationno": "O5995", "Stationname": "苏桥", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 7.9, "Minwddata": -2.5, "Fsdata": 3.8 },
+    { "Lng": 114.16, "Lat": 34.11, "Data": 0, "Data2": 340, "Stationno": "57095", "Stationname": "鄢陵", "Times": null, "Data21": 0, "Stationtype": "国家站", "check": true, "Maxwddata": 8, "Minwddata": -3, "Fsdata": 4.5 },
+    { "Lng": 113.86, "Lat": 33.96, "Data": 0, "Data2": 217, "Stationno": "O2345", "Stationname": "天和", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.4, "Minwddata": -4.9, "Fsdata": 3.7 },
+    { "Lng": 114.14, "Lat": 33.9, "Data": 0, "Data2": 33, "Stationno": "O6087", "Stationname": "望田", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.5, "Minwddata": -3.8, "Fsdata": 5.6 },
+    { "Lng": 113.72, "Lat": 34.12, "Data": 0, "Data2": 207, "Stationno": "O6003", "Stationname": "桂村", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 7.5, "Minwddata": -4.1, "Fsdata": 4.1 },
+    { "Lng": 113.84, "Lat": 33.92, "Data": 0, "Data2": 26, "Stationno": "O2346", "Stationname": "蒋李集", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 6.9, "Minwddata": -5.5, "Fsdata": 5.5 },
+    { "Lng": 113.69, "Lat": 33.95, "Data": 0, "Data2": 66, "Stationno": "O5993", "Stationname": "榆林", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8, "Minwddata": -3.7, "Fsdata": 5.4 },
+    { "Lng": 114.22, "Lat": 33.85, "Data": 0, "Data2": 0, "Stationno": "O6086", "Stationname": "陶城", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.7, "Minwddata": -4, "Fsdata": 5.1 },
+    { "Lng": 114.23, "Lat": 33.96, "Data": 0, "Data2": 6, "Stationno": "O6088", "Stationname": "张桥", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.3, "Minwddata": -4.1, "Fsdata": 4.5 },
+    { "Lng": 114.15, "Lat": 33.97, "Data": 0, "Data2": 35, "Stationno": "O6089", "Stationname": "只乐", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.5, "Minwddata": -2.8, "Fsdata": 3.9 },
+    { "Lng": 113.6, "Lat": 34.04, "Data": 0, "Data2": 59, "Stationno": "O5991", "Stationname": "椹涧", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 7.9, "Minwddata": -2, "Fsdata": 6.5 },
+    { "Lng": 113.98, "Lat": 34.14, "Data": 0, "Data2": 26, "Stationno": "O6002", "Stationname": "陈曹", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 7.9, "Minwddata": -3.9, "Fsdata": 4.3 },
+    { "Lng": 114.08, "Lat": 34.06, "Data": 0, "Data2": 20, "Stationno": "O6080", "Stationname": "陈化店", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.4, "Minwddata": -4.1, "Fsdata": 4.1 },
+    { "Lng": 113.93, "Lat": 34.07, "Data": 0, "Data2": 34, "Stationno": "57089", "Stationname": "许昌", "Times": null, "Data21": 0, "Stationtype": "国家站", "check": true, "Maxwddata": 7.7, "Minwddata": -3.9, "Fsdata": 5.3 },
+    { "Lng": 113.84, "Lat": 34.1, "Data": 0, "Data2": 269, "Stationno": "O5996", "Stationname": "尚集", "Times": null, "Data21": 0, "Stationtype": "区域站", "check": true, "Maxwddata": 8.1, "Minwddata": -0.4, "Fsdata": 2.4 }
+  ],
+  "datas2": null
+}

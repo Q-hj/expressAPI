@@ -16,12 +16,16 @@ npm start 或 node bin/www
 
 #### **目前可访问的接口:**
 
-| api           | 请求方式 |     描述     |
-| :------------ | :------: | :----------: |
-| /AddConfig    |   get    |   新增配置   |
-| /UpdateConfig |   post   |   修改配置   |
-| /DelateConfig |   post   |   删除配置   |
-| /configList   |   post   | 获取配置列表 |
+| api                      | 请求方式 |     描述     |
+| :----------------------- | :------: | :----------: |
+| /api/YuQing/GetAreList   |   post   | 获取区域列表 |
+| /api/YuQing/GetStaList   |   post   | 获取站点列表 |
+| /api/YuQing/GetDataQuery |   post   | 获取站点数据 |
+|                          |          |
+| /api/YuQing/AddConfig    |   get    |   新增配置   |
+| /api/YuQing/UpdateConfig |   post   |   修改配置   |
+| /api/YuQing/DelateConfig |   post   |   删除配置   |
+| /api/YuQing/configList   |   post   | 获取配置列表 |
 
 ---
 

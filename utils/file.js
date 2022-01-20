@@ -3,10 +3,12 @@
  * json文件格式:  [{},{}]
  */
 const fs = require("fs");
-const Path = require("path");
-function Filter(path) {
+// const Path = require("path");
+function Filter(fileName) {
+  var path = `public/data/${fileName}.json`;
   // 在require一个模块的时候（除了系统模块）， 都是从文件自己的相对路径去找。 当使用fs等模块时， 是根据cmd光标盘符去找。
-  let content = fs.readFileSync(path) || "[]"; //同步方式读取内容
+  let content = fs.readFileSync(path); //同步方式读取内容
+
   //toString:读取的数据格式为buffer类型, 将buffer对象转为字符串类型
   //JSON.parse:将字符串还原为js数据类型(Object|Array)
   this.content = JSON.parse(content.toString());
@@ -23,6 +25,7 @@ function Filter(path) {
   };
   // 新增实例--push实例 写入
   this.insert = function (obj, success, error) {
+    console.log(JSON.stringify(obj));
     if (!this.content) this.content = [];
     let flag = this.content.some((e) => e.Title == obj.Title);
     if (flag) return error("已存在!");
