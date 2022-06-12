@@ -18,6 +18,9 @@ npm start 或 node bin/www
 
 | api                      | 请求方式 |     描述     |
 | :----------------------- | :------: | :----------: |
+| /user/Login              |   post   |     登录     |
+| /user/userData           |   post   | 获取用户信息 |
+|                          |          |
 | /api/YuQing/GetAreList   |   post   | 获取区域列表 |
 | /api/YuQing/GetStaList   |   post   | 获取站点列表 |
 | /api/YuQing/GetDataQuery |   post   | 获取站点数据 |
