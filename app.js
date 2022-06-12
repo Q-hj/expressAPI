@@ -2,7 +2,6 @@ var createError = require("http-errors");
 var express = require("express");
 var app = express();
 var path = require("path");
-var bodyParser = require("body-parser"); //解析post请求参数
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
 
@@ -22,14 +21,18 @@ app.set("view engine", "jade");
 // 配置接受参数形式
 app.use(logger("dev"));
 app.use(express.json());
-app.use(express.urlencoded({ extended: false }));
+app.use(express.urlencoded({
+  extended: false
+}));
 app.use(cookieParser());
-app.use(bodyParser.urlencoded({ extended: false })); //接受浏览器端提交的表单格式数据
-app.use(bodyParser.json()); //接受浏览器端提交的JSON格式数据
+app.use(express.urlencoded({
+  extended: false
+})); //接受浏览器端提交的表单格式数据
+app.use(express.json()); //接受浏览器端提交的JSON格式数据
 app.use(express.static(path.join(__dirname, "public")));
 
 //引用路由对象
-app.use("/api/YuQing", require("./routes/index"));
+// app.use("/api/YuQing", require("./routes/index"));
 app.use("/user", require("./routes/users"));
 
 // catch 404 and forward to error handler
